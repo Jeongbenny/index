@@ -1,0 +1,393 @@
+@font-face {
+  font-family: 'Infiniti Brand';
+  src: url("../font/InfinitiBrand-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Infiniti Brand';
+}
+
+body {
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, figure, p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  vertical-align: middle;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+header {
+  position: relative;
+  width: 100%;
+  padding: 5px 0;
+}
+
+header p {
+  margin: 15px auto;
+  width: 5%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .top {
+  width: 100%;
+  padding: 7px;
+  margin: -5px auto;
+  display: absolute;
+  text-align: center;
+  font-size: 13px;
+  font-weight: bold;
+  word-spacing: 12px;
+  color: #fff;
+  background-color: #000;
+}
+
+header .top nav a {
+  color: #fff;
+}
+
+header .top nav a:hover {
+  color: #999;
+}
+
+header .bottom {
+  width: 100%;
+  display: absolute;
+  text-align: center;
+}
+
+header .bottom nav {
+  width: 60%;
+  margin: 0 auto;
+  padding: 13px;
+  border-top: 1px solid #e4e4e4;
+  border-bottom: 1px solid #e4e4e4;
+}
+
+header .bottom nav a {
+  color: #000;
+  padding: 15px 20px 15px 0;
+  font-weight: bold;
+}
+
+header .bottom nav a img {
+  -webkit-transform: translate(-100%);
+          transform: translate(-100%);
+}
+
+header .bottom nav a:hover {
+  color: #999;
+}
+
+main .index-QX60 {
+  max-width: 1550px;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+main .index-QX60 div {
+  margin: 70px auto;
+  padding: 15px;
+  left: 23%;
+  top: 15%;
+  width: 20%;
+  position: absolute;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+
+main .index-QX60 div b {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+}
+
+main .index-QX60 div h3 {
+  color: #fff;
+  font-weight: 300;
+  font-size: 2em;
+  margin: 5px;
+  letter-spacing: 1px;
+}
+
+main .index-QX60 div p {
+  color: #fff;
+  font-weight: 400;
+  margin: 15px;
+}
+
+main .index-QX60 div a {
+  width: 45%;
+  color: #000;
+  border: 2px solid #000;
+  background-color: #fff;
+  padding: 10px 35px;
+  font-weight: bold;
+  display: block;
+  margin: 30px auto;
+}
+
+main .index-QX60 img {
+  width: 100%;
+}
+
+main .stories div {
+  max-width: 1550px;
+  display: relative;
+  margin: 50px auto;
+}
+
+main .stories div figure {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .stories div figure > video {
+  width: 50%;
+}
+
+main .stories div figure > p {
+  width: 50%;
+}
+
+main .stories div figure > p img {
+  width: 100%;
+}
+
+main .stories div figure > figcaption {
+  width: 50%;
+  text-align: center;
+  padding: 10%;
+}
+
+main .stories div figure > figcaption p {
+  font-size: 1.5em;
+  margin: 20px;
+}
+
+main .stories div figure > figcaption .txt {
+  font-size: 1em;
+}
+
+main .stories div figure > figcaption a {
+  display: inline-block;
+  padding: 20px 33px 20px 33px;
+  background-color: #000;
+  color: #fff;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  margin: 20px;
+}
+
+main .stories div figure > figcaption a:hover {
+  opacity: 0.8;
+}
+
+main .stories div figure:nth-child(2n) > p {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+main .stories div figure:nth-child(2n) > figcaption {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+main .stories div figure:nth-child(2n) > video {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+main .stories div .bottom-btn {
+  display: block;
+  margin: 100px auto;
+  width: 15%;
+  padding: 20px 33px 20px 33px;
+  background-color: #000;
+  color: #fff;
+  font-size: 13px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+
+main .line-up {
+  text-align: left;
+  padding: 100px 0;
+}
+
+main .line-up .title {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+main .line-up ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  max-width: 1350px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .line-up ul li {
+  width: 30%;
+}
+
+main .line-up ul li .img img {
+  width: 100%;
+}
+
+main .line-up ul li p b {
+  display: block;
+  font-size: 20px;
+}
+
+main .line-up ul li p em {
+  display: block;
+  font-style: normal;
+  margin-top: 20px;
+}
+
+main .line-up ul li p a {
+  display: block;
+  font-weight: bold;
+  width: 40%;
+  color: #000;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+main .ex div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+
+main .ex div .title-txt {
+  margin-top: 50px;
+  display: block;
+}
+
+main .ex div .title-txt b {
+  letter-spacing: 1px;
+}
+
+main .ex div .title-txt .title {
+  margin: 10px auto;
+  font-size: 2em;
+}
+
+main .ex div .title-txt .txttxt {
+  width: 60%;
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 100px;
+  font-weight: 600;
+}
+
+main .ex div .bottom img {
+  width: 100%;
+}
+
+main .ex div .bottom .txt {
+  display: block;
+  font-size: 1.4em;
+  padding: 20px;
+  font-style: normal;
+}
+
+main .ex div .bottom a {
+  display: block;
+  width: 75%;
+  padding: 15px 25px 15px 25px;
+  background-color: #fff;
+  color: #000;
+  border: 2px solid #000;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+main .ex-lineup {
+  max-width: 2000px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+main .ex-lineup div {
+  margin: 70px auto;
+  padding: 30px;
+  left: 37.5%;
+  width: 20%;
+  position: absolute;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+main .ex-lineup div b {
+  color: #fff;
+  font-size: 1.5em;
+  letter-spacing: 1px;
+}
+
+main .ex-lineup div p {
+  color: #fff;
+  width: 80%;
+  margin-top: 20px;
+}
+
+main .ex-lineup div a {
+  margin: 20px auto;
+  margin-top: 30px;
+  display: block;
+  width: 40%;
+  padding: 15px 25px 15px 25px;
+  background-color: #fff;
+  color: #000;
+  border: 2px solid #000;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+/*# sourceMappingURL=index.css.map */
